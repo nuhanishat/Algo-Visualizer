@@ -111,6 +111,8 @@ h2 {
     width: 30px;
     height: 30px;
     background-color: #F4F8D3;
+    display: flex;
+    justify-content: center;
 }
 
 .input-flex {
