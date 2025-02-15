@@ -240,6 +240,7 @@ button:active {
     /* background-color: #D1F8EF; */
     background-color: inherit;
     font-family: "Courier Prime", serif;
+    max-width: 20px;
 }
 
 .function-display {
