@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="bar" id="left">
+        </div>
+        <div class="bar" id="title">
+            <h2>Binary Search</h2>
+        </div>
+        <div class="bar" id="right"></div>
+        <div class="bar" id="inputArray">
+            <div class="input-flex">
+                <h3>inputArray = [</h3>
+                <div class="input" id="input1">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input2">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input3">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input4">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input5">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input6">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input7">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input8">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input9">
+                    <input type="text" class="input-field">
+                </div>
+                <div class="input" id="input10">
+                    <input type="text" class="input-field">
+                </div>
+                <h3>]</h3>
+            </div>
+            <div class="enter-array">
+                <button onclick="getInputArray()">Enter</button>
+            </div>
+        </div>
+        <div class="bar" id="sortedArray">
+            <div class="sorted-flex">
+                <h3>sortedArray = [</h3>
+                <div class="sort" id="sort1"></div>
+                <div class="sort" id="sort2"></div>
+                <div class="sort" id="sort3"></div>
+                <div class="sort" id="sort4"></div>
+                <div class="sort" id="sort5"></div>
+                <div class="sort" id="sort6"></div>
+                <div class="sort" id="sort7"></div>
+                <div class="sort" id="sort8"></div>
+                <div class="sort" id="sort9"></div>
+                <div class="sort" id="sort10"></div>
+                <h3>]</h3>
+            </div>
+        </div> 
+        <div class="bar" id="searchItem">
+            <div class="item-flex">
+                <h3>Search itemValue = </h3>
+                <div class="search" id="searchItem">
+                    <input type="text" class="input-field" id="find-item">
+                </div>
+            </div>
+            <div class="search-item">
+                <button onclick="SearchDisplay()">Search</button>
+            </div>
+        </div>
+        <div class="bar" id="binarySearch">
+            <div class="function">
+                <div class="sub-function">
+                    <h3 class="func">function</h3>
+                    <h3 class="binary">BinarySearch(</h3>
+                    <h3 class="sortarray">sortedArray</h3>
+                    <h3 class="itemvalue">, itemValue</h3>
+                    <h3>)</h3>
+                    <h3 class="start-brace">{</h3>
+                </div>
+                <div id="function-display">
+                    <div class="step-display"></div>
+                    <div class="param-display">
+                        <div class="low-div"> <h3>Low: </h3>
+                            <div class="algo-param" id="low-num"></div>
+                        </div>
+                        <div class="high-div"> <h3>High: </h3>
+                            <div class="algo-param" id="high-num"></div>
+                        </div>
+                        <div class="mid-div"><h3>Mid: </h3>
+                            <div class="algo-param" id="mid-num"></div>
+                        </div>
+                    </div>
+                    <div class="comment-display"></div>
+                </div>
+                <div class="search-flex" id="algo-display">
+                    <h3>searchArray = [</h3>
+                    <div class="algo" id="search1"></div>
+                    <div class="algo" id="search2"></div>
+                    <div class="algo" id="search3"></div>
+                    <div class="algo" id="search4"></div>
+                    <div class="algo" id="search5"></div>
+                    <div class="algo" id="search6"></div>
+                    <div class="algo" id="search7"></div>
+                    <div class="algo" id="search8"></div>
+                    <div class="algo" id="search9"></div>
+                    <div class="algo" id="search10"></div>
+                    <h3>]</h3>
+                </div>
+                <h3 class="end-brace">}</h3>
+            </div>
+        </div>
+        <div class="bar" id="space"></div>
+    </div>
+    <script src="./script.js"></script>
+    <footer>
+        <p class="footer-text">©Copyright 2025 by Nuha Nishat</p> 
+    </footer>
+</body>
+</html>
