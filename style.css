@@ -61,7 +61,9 @@ h2 {
     width: 30px;
     height: 30px;
     background-color: #D1E9F6;
+    
 }
+
 
 .sort {
     width: 30px;
@@ -235,7 +237,8 @@ button:active {
     margin-left: 3px;
     margin-top: 4px;
     text-align: center;
-    background-color: #D1F8EF;
+    /* background-color: #D1F8EF; */
+    background-color: inherit;
     font-family: "Courier Prime", serif;
 }
 
